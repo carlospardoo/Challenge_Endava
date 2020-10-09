@@ -1,0 +1,15 @@
+body{
+    margin: 5%;
+    background-color: rgba(93, 189, 93, 0.5);
+}
+h1{
+    text-align: center;
+    font-size: 6.5em;
+    color:rgba(11, 15, 1, 0.795);
+}
+.etiqueta{
+    color:rgba(20, 20, 19, 0.822);
+}
+.resultado{
+    color: red;
+}

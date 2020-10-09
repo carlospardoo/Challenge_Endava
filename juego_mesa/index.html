@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Juego de Mesa</title>
+        <link rel="stylesheet" type="text/css" href="css/estilos.css">
+        <script type="text/javascript" src="js/funcion.js"></script>
+    </head>
+    <body>
+        <h1>Juego de Mesa</h1>
+        <p>
+            El objetivo del presente aplicativo es calcular el número 
+            de formas distintas mediante las cuales se puede llegar desde
+            el punto de inicio hasta la meta, según un número de casillas 
+            del tablero definidas por el usuario. 
+        </p>
+        <br>
+        <label class="etiqueta">Escriba el número de casillas del juego de mesa. Número mayor a cero: </label>
+        
+        <input type="text" id="txtCasillas">
+        <button onclick="capturarDatos()">Calcular</button>
+        <br>
+        <label>Resultado: </label>
+        <div id='resultado' class="resultado"></div>
+    </body>
+</html>
